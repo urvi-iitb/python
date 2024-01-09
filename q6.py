@@ -13,6 +13,7 @@ centre = None
 for city in TESTING_CENTRES:
     n_diff=abs(city[1][0]-friend_location[0])
     w_diff = abs(city[1][1]-friend_location[1])
+    # 60 and 54 as mentioned in problem statement that a latitude is around 60 miles and longitude 54 miles
     n_diff = n_diff*60
     w_diff = w_diff*54
     dist = math.sqrt(n_diff**2+ w_diff**2)
