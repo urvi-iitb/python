@@ -1,3 +1,6 @@
+# done it separately for this part as part a is iteratively doing the conversion so it will do for 
+#any number of inputs while here we are taking one input from the user
+
 a = input("first")
 b = input("second")
 c = a.split(" ")

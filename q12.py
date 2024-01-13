@@ -1,3 +1,5 @@
+#WAS TRYING TO UNDERSTAND HOW THIS WORKS 
+
 
 with open("try.png",'rb') as img_file:
     img_file.seek(163)

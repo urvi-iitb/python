@@ -4,7 +4,9 @@ for i in range (0,12):
     for j in range (0,12):
         hr_angle = 30*i+2.5*j - 90
         min_angle = 30*j
-        diff = abs(hr_angle-min_angle)%360
+        diff = (hr_angle-min_angle)%360
+
+#abs() is not necessary but the if condition is required as otherwise angle at 9:00 is 270 while at 3:00 is 90 which should not be the case
         if diff> 180:
             diff = 360 -diff
 

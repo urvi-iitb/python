@@ -8,6 +8,7 @@ for file in files:
         with open (file,"r") as f:
             content = f.read()
             words = content.split("\n")
+            #extend is used to append a list to the current list without creating a nested list
             all_words.extend(words)
 unique_words = set(all_words)
 sorted = sorted(unique_words)

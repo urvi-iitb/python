@@ -1,5 +1,3 @@
-#prisoners with cell number which has odd number of divisors will be lucky
-#ONLY PERFECT SQUARES HAVE ODD NUMBER OF DIVISORS
 
 import math
 import datetime
